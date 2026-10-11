@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad · Bonfer</title>
+  <meta name="description" content="Política de privacidad de la app Bonfer, de Bonfer Tech SL: qué datos tratamos, para qué, durante cuánto tiempo y cómo ejercer tus derechos.">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #C8006B;
+      --brand-dark: #9E0055;
+      --text: #1F1A1D;
+      --muted: #6B6268;
+      --bg: #FFFFFF;
+      --surface: #FBF5F8;
+      --border: #EADDE4;
+      --warn-bg: #FFF6E5;
+      --warn-border: #F2C46D;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+    }
+    .bar {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo {
+      width: 34px; height: 34px;
+      border-radius: 9px;
+      background: var(--brand);
+      color: #fff;
+      display: grid; place-items: center;
+      font-weight: 700; font-size: 18px;
+    }
+    .brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; }
+    main { max-width: 760px; margin: 0 auto; padding: 28px 16px 64px; }
+    h1 { font-size: 32px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.02em; text-wrap: balance; }
+    h2 { font-size: 21px; line-height: 1.3; margin: 36px 0 8px; text-wrap: balance; }
+    h3 { font-size: 17px; margin: 20px 0 4px; }
+    p, li { text-wrap: pretty; }
+    ul { padding-left: 22px; }
+    li { margin: 4px 0; }
+    a { color: var(--brand); font-weight: 600; text-underline-offset: 3px; }
+    a:hover { color: var(--brand-dark); }
+    a:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-radius: 3px; }
+    .updated { color: var(--muted); margin: 0 0 20px; }
+    .note {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-border);
+      border-radius: 12px;
+      padding: 12px 16px;
+      font-size: 15px;
+      margin: 0 0 24px;
+    }
+    .pending { background: #FFE9A8; padding: 0 4px; border-radius: 4px; font-weight: 600; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 18px;
+    }
+    .card p { margin: 4px 0; }
+    nav.toc { margin: 8px 0 8px; }
+    nav.toc ol { padding-left: 22px; columns: 2; column-gap: 28px; font-size: 15px; }
+    @media (max-width: 560px) {
+      h1 { font-size: 27px; }
+      nav.toc ol { columns: 1; }
+    }
+    .table-wrap { overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; font-size: 15px; }
+    th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+    th { background: var(--surface); }
+    .btn {
+      display: inline-block;
+      background: var(--brand);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+    }
+    .btn:hover { background: var(--brand-dark); color: #fff; }
+    footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+    footer .bar { display: block; padding: 18px 16px 28px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <div class="logo" aria-hidden="true">B</div>
+      <span class="brand">Bonfer</span>
+    </div>
+  </header>
+
+  <main>
+    <h1>Política de privacidad</h1>
+    <p class="updated">Última actualización: 11 de octubre de 2026</p>
+
+    <p class="note"><strong>Versión provisional.</strong> Este texto está pendiente de revisión legal y puede cambiar. Si tienes cualquier duda, escríbenos a <a href="mailto:support@bonfertech.com">support@bonfertech.com</a>.</p>
+
+    <p>En Bonfer queremos que organizar la vida de tus hijos después de una separación sea más fácil, y eso pasa por cuidar mucho tus datos. Aquí te explicamos, con palabras sencillas, qué información tratamos, para qué, con quién la compartimos y qué derechos tienes. Esta política se rige por el Reglamento General de Protección de Datos (RGPD, Reglamento (UE) 2016/679) y la Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).</p>
+
+    <nav class="toc" aria-label="Índice">
+      <ol>
+        <li><a href="#responsable">Responsable</a></li>
+        <li><a href="#app">Qué es Bonfer</a></li>
+        <li><a href="#datos">Qué datos tratamos</a></li>
+        <li><a href="#salud">Datos de salud de menores</a></li>
+        <li><a href="#finalidades">Finalidades y bases legales</a></li>
+        <li><a href="#quien-ve">Quién ve cada cosa</a></li>
+        <li><a href="#encargados">Proveedores y transferencias</a></li>
+        <li><a href="#conservacion">Cuánto tiempo guardamos los datos</a></li>
+        <li><a href="#menores">Menores</a></li>
+        <li><a href="#derechos">Tus derechos</a></li>
+        <li><a href="#seguridad">Seguridad</a></li>
+        <li><a href="#cambios">Cambios en esta política</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="responsable">1. Responsable del tratamiento</h2>
+    <div class="card">
+      <p><strong>Bonfer Tech SL</strong></p>
+      <p>NIF: <span class="pending">[NIF pendiente]</span></p>
+      <p>Domicilio social: <span class="pending">[Domicilio pendiente]</span></p>
+      <p>Contacto de privacidad: <a href="mailto:support@bonfertech.com">support@bonfertech.com</a></p>
+    </div>
+
+    <h2 id="app">2. Qué es Bonfer</h2>
+    <p>Bonfer es una app de coparentalidad y organización del hogar. Permite a madres y padres separados crear un acuerdo de custodia, compartir un calendario, guardar la ficha de cada hijo o hija, crear eventos, proponer cambios de días y llevar un historial de lo acordado. También permite organizar tu hogar con tu pareja: tareas, lugares de interés y quién tiene a los niños cada día. Te registras con tu correo electrónico y una contraseña.</p>
+
+    <h2 id="datos">3. Qué datos tratamos</h2>
+    <h3>Datos de tu cuenta</h3>
+    <ul>
+      <li>Correo electrónico y, si lo indicas, tu nombre visible.</li>
+      <li>Contraseña: la gestiona Firebase Authentication (Google). Nosotros nunca la vemos ni la guardamos en texto plano.</li>
+    </ul>
+    <h3>Datos del acuerdo de custodia</h3>
+    <ul>
+      <li>Tipo de custodia, el convenio y su calendario (estancias, periodos, días concretos, horas y lugares de entrega).</li>
+      <li>Solicitudes de cambio, con sus motivos y respuestas.</li>
+      <li>Eventos compartidos con el otro progenitor (por ejemplo, citas o actividades) y quién acude.</li>
+      <li>Un historial de cambios que registra quién hizo qué y cuándo.</li>
+    </ul>
+    <h3>Datos de los menores que introducen sus progenitores</h3>
+    <ul>
+      <li>Nombre, fecha de nacimiento, colegio, talla de ropa y de calzado, y notas.</li>
+      <li>Datos de salud: alergias, medicación, número de tarjeta sanitaria y médico de referencia (ver el <a href="#salud">apartado 4</a>).</li>
+    </ul>
+    <h3>Datos del hogar</h3>
+    <ul>
+      <li>Quién forma parte del hogar (como máximo dos personas adultas), sus nombres y correos.</li>
+      <li>Tareas de casa (recogidas, entregas, citas, extraescolares) y lugares de interés con su dirección.</li>
+    </ul>
+    <h3>Invitaciones</h3>
+    <ul>
+      <li>El correo electrónico de la persona a la que invitas (el otro progenitor o tu pareja) y el código de invitación.</li>
+    </ul>
+    <h3>Datos técnicos</h3>
+    <ul>
+      <li>Los datos técnicos imprescindibles para que el servicio funcione y sea seguro, como identificadores de usuario, fechas de acceso y registros técnicos de nuestros proveedores.</li>
+    </ul>
+
+    <h2 id="salud">4. Datos de salud de menores</h2>
+    <p>Las alergias, la medicación, la tarjeta sanitaria y el médico de un menor son <strong>datos de categoría especial</strong> (artículo 9 del RGPD). Solo los tratamos porque el progenitor que los introduce nos da su <strong>consentimiento explícito</strong> al hacerlo, con la finalidad de que ambos progenitores tengan esta información a mano para cuidar del menor.</p>
+    <ul>
+      <li>Son opcionales: puedes usar Bonfer sin rellenarlos.</li>
+      <li>Solo los ven los progenitores del menor dentro de ese acuerdo. Nunca la pareja de un progenitor ni otras personas.</li>
+      <li>Puedes modificarlos o retirar tu consentimiento en cualquier momento, sin que afecte a la licitud del tratamiento anterior.</li>
+    </ul>
+
+    <h2 id="finalidades">5. Para qué usamos los datos y con qué base legal</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Finalidad</th><th>Base legal</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Crear tu cuenta y prestarte el servicio: acuerdos, calendario, fichas, eventos, solicitudes, hogar, tareas, lugares e invitaciones.</td><td>Ejecución del contrato (art. 6.1.b RGPD).</td></tr>
+          <tr><td>Tratar datos de salud de menores.</td><td>Consentimiento explícito (art. 9.2.a RGPD).</td></tr>
+          <tr><td>Proteger la seguridad del servicio y prevenir abusos o fraudes.</td><td>Interés legítimo (art. 6.1.f RGPD).</td></tr>
+          <tr><td>Cumplir obligaciones legales y atender requerimientos de autoridades.</td><td>Obligación legal (art. 6.1.c RGPD).</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Lo que no hacemos:</strong> no mostramos publicidad, no vendemos tus datos, no los cedemos a terceros con fines comerciales y no elaboramos perfiles ni tomamos decisiones automatizadas sobre ti.</p>
+
+    <h2 id="quien-ve">6. Quién ve cada cosa (privacidad desde el diseño)</h2>
+    <p>Bonfer está pensado para familias separadas, así que la privacidad se aplica en el propio servidor, no solo en la pantalla:</p>
+    <ul>
+      <li><strong>El otro progenitor nunca ve tu hogar:</strong> ni tu pareja, ni tus tareas, ni tus lugares de interés.</li>
+      <li><strong>Tu pareja no ve la ficha</strong> de los hijos que no son suyos.</li>
+      <li>Solo los progenitores de un acuerdo ven su convenio, sus eventos y su historial.</li>
+      <li><strong>Nada se borra de forma inmediata:</strong> el historial de un acuerdo puede servir como prueba de lo acordado entre progenitores, por eso los cambios quedan registrados. Si nos pides el borrado, lo tramitamos como se explica en el <a href="#conservacion">apartado 8</a>.</li>
+    </ul>
+
+    <h2 id="encargados">7. Proveedores y transferencias internacionales</h2>
+    <p>Para prestar el servicio usamos estos proveedores, que actúan como encargados del tratamiento y solo tratan los datos siguiendo nuestras instrucciones:</p>
+    <ul>
+      <li><strong>Google Ireland Limited / Google LLC (Firebase):</strong> autenticación (Firebase Authentication), base de datos (Cloud Firestore, alojada en la multirregión de la Unión Europea <em>eur3</em>) y almacenamiento de archivos (Cloud Storage).</li>
+      <li><strong>Expo (650 Industries, Inc.):</strong> distribución y actualizaciones de la app.</li>
+    </ul>
+    <p>Algunos de estos proveedores pueden acceder a datos desde Estados Unidos. Esas transferencias están amparadas por el Marco de Privacidad de Datos UE-EE. UU. (EU-US Data Privacy Framework) y/o por cláusulas contractuales tipo aprobadas por la Comisión Europea.</p>
+    <p>Fuera de estos casos, solo comunicaremos datos a autoridades cuando una ley nos obligue.</p>
+
+    <h2 id="conservacion">8. Cuánto tiempo guardamos los datos</h2>
+    <ul>
+      <li>Los datos de tu cuenta, mientras la mantengas activa.</li>
+      <li>El historial de un acuerdo, mientras el acuerdo exista y el otro progenitor siga usándolo, porque también es información suya.</li>
+      <li>Cuando solicitas el borrado de tu cuenta, eliminamos o anonimizamos tus datos, salvo los que una ley nos obligue a conservar, que quedarán bloqueados durante los plazos legales y solo a disposición de jueces, tribunales y autoridades competentes.</li>
+    </ul>
+
+    <h2 id="menores">9. Menores</h2>
+    <p>Bonfer es una app para personas adultas (mayores de 18 años). Los niños y niñas no tienen cuenta: sus datos los introducen sus progenitores, que son responsables de que sean correctos y de contar con la legitimación para hacerlo.</p>
+
+    <h2 id="derechos">10. Tus derechos</h2>
+    <p>Puedes ejercer en cualquier momento tus derechos de:</p>
+    <ul>
+      <li><strong>Acceso:</strong> saber qué datos tuyos tratamos.</li>
+      <li><strong>Rectificación:</strong> corregir datos inexactos.</li>
+      <li><strong>Supresión:</strong> pedir que borremos tus datos.</li>
+      <li><strong>Oposición:</strong> oponerte a tratamientos basados en interés legítimo.</li>
+      <li><strong>Limitación:</strong> pedir que dejemos de usar tus datos temporalmente.</li>
+      <li><strong>Portabilidad:</strong> recibir tus datos en un formato estructurado.</li>
+      <li><strong>Retirar el consentimiento</strong> que hayas dado, sin que afecte a lo tratado antes.</li>
+    </ul>
+    <p><strong>Cómo hacerlo:</strong> escríbenos a <a href="mailto:support@bonfertech.com">support@bonfertech.com</a> desde el correo de tu cuenta, o usa la opción <strong>«Solicitar el borrado de mi cuenta»</strong> dentro de la app. Te responderemos en el plazo máximo de un mes. Podemos pedirte que acredites tu identidad.</p>
+    <p>Si crees que no hemos atendido bien tu solicitud, puedes reclamar ante la <strong>Agencia Española de Protección de Datos</strong> en <a href="https://www.aepd.es" rel="noopener">www.aepd.es</a>.</p>
+
+    <h2 id="seguridad">11. Seguridad</h2>
+    <p>Aplicamos medidas técnicas y organizativas para proteger tus datos: conexiones cifradas, contraseñas gestionadas por Firebase Authentication, reglas de acceso en el servidor que impiden que nadie vea lo que no le corresponde, verificación del correo para aceptar invitaciones y códigos de invitación de un solo uso que caducan. Ningún sistema es infalible; si detectamos una brecha de seguridad que afecte a tus datos, actuaremos según la ley y te avisaremos cuando corresponda.</p>
+
+    <h2 id="cambios">12. Cambios en esta política</h2>
+    <p>Podemos actualizar esta política para reflejar cambios en la app o en la ley. Publicaremos siempre la versión vigente en esta página con su fecha, y si el cambio es importante te lo avisaremos en la app o por correo.</p>
+
+    <h2 id="contacto">13. Contacto</h2>
+    <p>Para cualquier pregunta sobre privacidad, escríbenos:</p>
+    <p><a class="btn" href="mailto:support@bonfertech.com">support@bonfertech.com</a></p>
+  </main>
+
+  <footer>
+    <div class="bar">© 2026 Bonfer Tech SL · <a href="mailto:support@bonfertech.com">support@bonfertech.com</a></div>
+  </footer>
+</body>
+</html>
