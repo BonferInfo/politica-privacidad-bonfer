@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Borrar tu cuenta y tus datos · Bonfer</title>
+  <meta name="description" content="Cómo pedir el borrado de tu cuenta de Bonfer y de tus datos, desde la app o por correo, y qué se conserva.">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #C8006B;
+      --brand-dark: #9E0055;
+      --text: #1F1A1D;
+      --muted: #6B6268;
+      --bg: #FFFFFF;
+      --surface: #FBF5F8;
+      --border: #EADDE4;
+      --warn-bg: #FFF6E5;
+      --warn-border: #F2C46D;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+    }
+    .bar {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo {
+      width: 34px; height: 34px;
+      border-radius: 9px;
+      background: var(--brand);
+      color: #fff;
+      display: grid; place-items: center;
+      font-weight: 700; font-size: 18px;
+    }
+    .brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; }
+    main { max-width: 760px; margin: 0 auto; padding: 28px 16px 64px; }
+    h1 { font-size: 32px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.02em; text-wrap: balance; }
+    h2 { font-size: 21px; line-height: 1.3; margin: 36px 0 8px; text-wrap: balance; }
+    h3 { font-size: 17px; margin: 20px 0 4px; }
+    p, li { text-wrap: pretty; }
+    ul { padding-left: 22px; }
+    li { margin: 4px 0; }
+    a { color: var(--brand); font-weight: 600; text-underline-offset: 3px; }
+    a:hover { color: var(--brand-dark); }
+    a:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-radius: 3px; }
+    .updated { color: var(--muted); margin: 0 0 20px; }
+    .note {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-border);
+      border-radius: 12px;
+      padding: 12px 16px;
+      font-size: 15px;
+      margin: 0 0 24px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 18px;
+    }
+    .card p { margin: 4px 0; }
+    nav.toc { margin: 8px 0 8px; }
+    nav.toc ol { padding-left: 22px; columns: 2; column-gap: 28px; font-size: 15px; }
+    @media (max-width: 560px) {
+      h1 { font-size: 27px; }
+      nav.toc ol { columns: 1; }
+    }
+    .table-wrap { overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; font-size: 15px; }
+    th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+    th { background: var(--surface); }
+    .btn {
+      display: inline-block;
+      background: var(--brand);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+    }
+    .btn:hover { background: var(--brand-dark); color: #fff; }
+    footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+    footer .bar { display: block; padding: 18px 16px 28px; }
+    footer p { margin: 4px 0; }
+      .card ul { margin: 6px 0; }
+    td ul { margin: 0; padding-left: 18px; }
+    .ui { display: inline-block; padding: 0 8px; border-radius: 7px; background: var(--surface); border: 1px solid var(--border); font-weight: 600; line-height: 1.5; }
+    ol.steps { padding-left: 24px; }
+    .steps li { padding-left: 4px; margin: 8px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <div class="logo" aria-hidden="true">B</div>
+      <span class="brand">Bonfer</span>
+    </div>
+  </header>
+
+  <main>
+    <h1>Borrar tu cuenta y tus datos</h1>
+    <p class="updated">Última actualización: 18 de noviembre de 2026</p>
+
+    <p class="note"><strong>Versión provisional.</strong> Este texto está pendiente de revisión legal y puede cambiar.</p>
+
+    <p>Esta página explica cómo borrar tu cuenta de <strong>Bonfer</strong>, la app de Bonfer Tech SL, y tus datos. Puedes pedirlo cuando quieras y es gratis.</p>
+
+    <div class="card">
+      <p><strong>Antes de nada</strong></p>
+      <ul>
+        <li>Desinstalar la app <strong>no borra tu cuenta</strong>. Para eso sigue los pasos de abajo.</li>
+        <li>Tus acuerdos y su historial también son del otro progenitor. Por eso revisamos cada petición a mano en lugar de borrarlo todo al momento.</li>
+      </ul>
+    </div>
+
+    <h2 id="app">1. Desde la app</h2>
+    <ol class="steps">
+      <li>Abre Bonfer y toca el círculo con tu inicial, arriba a la derecha de <span class="ui">Hoy</span>. Se abre <span class="ui">Tu cuenta</span>.</li>
+      <li>Toca <span class="ui">Solicitar el borrado de mi cuenta</span>.</li>
+      <li>Toca <span class="ui">Escribir la solicitud</span>. Se abre tu correo con el mensaje ya preparado.</li>
+      <li>Envíalo.</li>
+    </ol>
+
+    <h2 id="correo">2. Sin la app, por correo</h2>
+    <p>Escríbenos a <a href="mailto:support@bonfertech.com?subject=Borrar%20mi%20cuenta%20de%20Bonfer">support@bonfertech.com</a> <strong>desde el correo de tu cuenta</strong>, con el asunto «Borrar mi cuenta de Bonfer». Si escribes desde otro correo, podemos pedirte que demuestres que la cuenta es tuya.</p>
+
+    <h2 id="plazo">3. Cuándo se hace</h2>
+    <p>Lo hacemos en el plazo máximo de un mes y te avisamos por correo cuando esté hecho.</p>
+
+    <h2 id="que-se-borra">4. Qué se borra y qué se queda</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Se borra</th><th>Se queda</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ul>
+                <li>Tu cuenta: tu correo, tu contraseña y tu nombre.</li>
+                <li>Los datos que son solo tuyos.</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Lo que compartes con el otro progenitor en un acuerdo, como el calendario, los cambios, los pagos y su historial, mientras el acuerdo exista y el otro progenitor lo siga usando. Lo que no se pueda borrar por ese motivo lo anonimizamos, para que no se pueda relacionar contigo.</li>
+                <li>Los datos que una ley nos obligue a conservar, bloqueados durante el plazo legal y solo a disposición de jueces, tribunales y autoridades.</li>
+                <li>Si nos escribiste, tu correo con la petición, solo como constancia de que la atendimos.</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Tienes todos los detalles en la <a href="../">política de privacidad</a>.</p>
+
+    <h2 id="contacto">5. ¿Dudas?</h2>
+    <p>Escríbenos y te ayudamos:</p>
+    <p><a class="btn" href="mailto:support@bonfertech.com?subject=Borrar%20mi%20cuenta%20de%20Bonfer">support@bonfertech.com</a></p>
+  </main>
+
+  <footer>
+    <div class="bar">
+      <p><a href="../">Política de privacidad</a> · <a href="./">Borrar tu cuenta</a></p>
+      <p>© 2026 Bonfer Tech SL · NIF B70633755 · <a href="mailto:support@bonfertech.com">support@bonfertech.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
